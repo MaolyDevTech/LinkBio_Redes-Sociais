@@ -78,7 +78,7 @@ linkbio/ ├── index.html # Página principal ├── styles.css # Estilos
 
 * juste cores em styles.css
 
-🎯 Boas Práticas
+## 🎯 Boas Práticas
 * HTML semântico para acessibilidade.
 
 * CSS modular: um arquivo, regras claras e mobile-first.
@@ -105,10 +105,22 @@ Conecte seu repositório.
 Deploy automático em cada push.
 
 🤝 Contribuição
-Faça um fork deste projeto.
+1. Faça um fork deste projeto.
 
-Crie uma branch com sua feature:
+2. Crie uma branch com sua feature:
    ```bash
        git checkout -b feature/nova-animacao
+   
+3. Commit suas mudanças:
+    ```bash
+      git commit -m "Adiciona efeito de fade nas barras"
+    
+4. Push para a sua branch e abra um Pull Request. 🚀
+
+##📄 Licença
+
+Este projeto está sob a MIT License.
+Sinta-se livre para usar, modificar e distribuir!
+
 
 
