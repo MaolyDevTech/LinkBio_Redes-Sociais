@@ -111,15 +111,4 @@ Crie uma branch com sua feature:
    ```bash
        git checkout -b feature/nova-animacao
 
-Commit suas mudanças:
-    ```bash
-       git commit -m "Adiciona efeito de fade nas barras"
-
-Push para a sua branch e abra um Pull Request. 🚀
-
-📄 Licença
-
-Este projeto está sob a MIT License.
-Sinta-se livre para usar, modificar e distribuir!
-
 
