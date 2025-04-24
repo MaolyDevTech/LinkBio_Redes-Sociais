@@ -99,7 +99,7 @@ linkbio/ ├── index.html # Página principal ├── styles.css # Estilos
 
 * Comentários no CSS/JS para facilitar a manutenção.
 
-🌐 Deploy
+## 🌐 Deploy
 * **GitHub Pages**
 
 Empurre seu repositório para o GitHub.
@@ -127,7 +127,7 @@ Deploy automático em cada push.
     
 4. Push para a sua branch e abra um Pull Request. 🚀
 
-##📄 Licença
+## 📄 Licença
 
 Este projeto está sob a MIT License.
 Sinta-se livre para usar, modificar e distribuir!
