@@ -3,10 +3,16 @@
 
 > Um “Link in Bio” custom, responsivo e cheio de atitude.  
 > Transforme seu Figma em código HTML, CSS e JavaScript com hover, animações e efeito ripple nos botões. 🚀
+
 > **Desing** https://www.figma.com/design/oZryoNYvfb03UkNM0Kqa9v/LinkBio---Redes-Sociais?node-id=0-1&t=2293Yn8UFEMrLIIV-1
+
 > **Prototipo** https://www.figma.com/proto/oZryoNYvfb03UkNM0Kqa9v/LinkBio---Redes-Sociais?node-id=0-1&t=2293Yn8UFEMrLIIV-1
+
 > **Visual**
+
 ![LinkBio - Redes Sociais](https://github.com/user-attachments/assets/76f9b2b5-bfb6-4e41-8da6-2169b9835c8d)
+
+
 
 ---
 
