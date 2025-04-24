@@ -108,11 +108,11 @@ Deploy automático em cada push.
 Faça um fork deste projeto.
 
 Crie uma branch com sua feature:
-      ```bash
+   ```bash
        git checkout -b feature/nova-animacao
 
 Commit suas mudanças:
-       ```bash
+    ```bash
        git commit -m "Adiciona efeito de fade nas barras"
 
 Push para a sua branch e abra um Pull Request. 🚀
