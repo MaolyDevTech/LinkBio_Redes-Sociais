@@ -70,7 +70,7 @@ linkbio/ ├── index.html # Página principal ├── styles.css # Estilos
      open index.html  # macOS
      start index.html # Windows
  
-4. **Personalize**
+5. **Personalize**
 
 * Troque a profile-img em index.html
 
@@ -108,15 +108,13 @@ Deploy automático em cada push.
 Faça um fork deste projeto.
 
 Crie uma branch com sua feature:
-
-    ```bash
-   git checkout -b feature/nova-animacao
+   ```bash
+    git checkout -b feature/nova-animacao
      
 
 Commit suas mudanças:
-
     ```bash
-   git commit -m "Adiciona efeito de fade nas barras"
+    git commit -m "Adiciona efeito de fade nas barras"
       
 
 Push para a sua branch e abra um Pull Request. 🚀
