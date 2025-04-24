@@ -62,14 +62,14 @@ linkbio/ ├── index.html # Página principal ├── styles.css # Estilos
    git clone https://github.com/seuusuario/linkbio.git
 
 2. **Navegue** até a pasta do projeto
-  ```bash
-  cd linkbio
-
+     ```bash
+     cd linkbio
+  
 3. **Abra** index.html no seu navegador
- ```bash
-  open index.html  # macOS
-  start index.html # Windows
-
+    ```bash
+     open index.html  # macOS
+     start index.html # Windows
+ 
 4. **Personalize**
 
 * Troque a profile-img em index.html
