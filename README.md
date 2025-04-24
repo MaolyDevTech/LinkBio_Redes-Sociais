@@ -114,6 +114,7 @@ Crie uma branch com sua feature:
 Commit suas mudanças:
     ```bash
     git commit -m "Adiciona efeito de fade nas barras"
+
 Push para a sua branch e abra um Pull Request. 🚀
 
 📄 Licença
