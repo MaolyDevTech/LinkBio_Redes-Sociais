@@ -1,51 +1,25 @@
 // script.js
+
 document.addEventListener('DOMContentLoaded', () => {
-  // ---- Animação das barras ----
-  const bars = document.querySelectorAll('.bar');
-  bars.forEach((bar, i) => {
-    // guarda cor original
-    const orig = getComputedStyle(bar).backgroundColor;
-    bar.dataset.orig = orig;
-    // parte de 0 e anima width
-    bar.style.width = '0';
-    setTimeout(() => {
-      bar.style.transition = 'width 0.6s ease-out';
-      bar.style.width = '100%';
-    }, i * 150);
+  const buttons = document.querySelectorAll('.btn-slide');
+  const footer  = document.querySelector('.footer-stripes');
 
-    // hover: pinta de branco e dá “zoom” vertical
-    bar.addEventListener('mouseenter', () => {
-      bar.style.backgroundColor = '#fff';
-      bar.style.transform = 'scaleY(1.5)';
-    });
-    bar.addEventListener('mouseleave', () => {
-      bar.style.backgroundColor = bar.dataset.orig;
-      bar.style.transform = 'scaleY(1)';
-    });
-  });
+  buttons.forEach(button => {
+    // Define a cor da rede social na variável CSS
+    const color = button.getAttribute('data-color');
+    button.style.setProperty('--btn-color', color);
 
-  // ---- Efeito ripple nos botões ----
-  const buttons = document.querySelectorAll('.btn');
-  buttons.forEach(btn => {
-    btn.style.position = 'relative';
-    btn.style.overflow = 'hidden';
+    button.addEventListener('click', event => {
+      event.preventDefault();
 
-    btn.addEventListener('click', e => {
-      const circle = document.createElement('span');
-      circle.classList.add('ripple');
-      btn.appendChild(circle);
+      // Remove o estado "selected" de todos os botões
+      buttons.forEach(btn => btn.classList.remove('selected'));
 
-      // tamanho do círculo
-      const d = Math.max(btn.clientWidth, btn.clientHeight);
-      circle.style.width = circle.style.height = d + 'px';
+      // Adiciona "selected" ao botão clicado
+      button.classList.add('selected');
 
-      // posição do clique
-      const rect = btn.getBoundingClientRect();
-      circle.style.left = `${e.clientX - rect.left - d/2}px`;
-      circle.style.top  = `${e.clientY - rect.top  - d/2}px`;
-
-      // remove depois de animar
-      setTimeout(() => circle.remove(), 600);
+      // Transforma o rodapé em P&B alternando faixa a faixa
+      footer.classList.add('bw');
     });
   });
 });
