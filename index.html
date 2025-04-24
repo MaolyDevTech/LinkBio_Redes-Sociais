@@ -1,37 +1,110 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>LinkBio - Redes Sociais</title>
-  <link rel="stylesheet" href="styles.css">
-  <!-- Ícones do Font Awesome (CDN) -->
-  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>LinkBio – Seu Perfil</title>
+  <meta
+    name="description"
+    content="LinkBio inspirado na Kodak: polaroid, botões interativos e faixa rainbow no rodapé."
+  />
+
+  <!-- Bootstrap 5 CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+
+  <!-- Bootstrap Icons -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    rel="stylesheet"
+  />
+
+  <!-- Seu CSS customizado -->
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Seu JS de interações -->
+  <script src="script.js" defer></script>
 </head>
-<body>
 
-  <div class="linkbio-container">
-    <div class="profile">
-      <img src="https://via.placeholder.com/150" alt="Foto de perfil" class="profile-img">
-      <h2 class="username">@SeuNome</h2>
+<body class="bg-dark d-flex justify-content-center align-items-center min-vh-100">
+
+  <div class="card bg-dark text-white border-0" style="width: 360px;">
+
+    <!-- POLAROID -->
+    <figure class="figure text-center mb-4 polaroid">
+      <img
+        src="assets/images/profile.jpg"
+        alt="Foto de perfil de Seu Nome"
+        class="figure-img img-fluid rounded shadow-sm polaroid-img"
+      />
+      <figcaption class="figure-caption polaroid-caption">
+        <span class="name">Seu Nome</span>
+        <span class="separator">|</span>
+        <span class="message">Sua Mensagem Aqui</span>
+      </figcaption>
+    </figure>
+
+    <!-- BOTÕES -->
+    <div class="d-grid gap-2 mb-4 buttons">
+      <a
+        href="#"
+        class="btn btn-dark btn-slide d-flex align-items-center justify-content-center"
+        data-color="#0057B7"
+        aria-label="LinkedIn"
+      >
+        <i class="bi bi-linkedin fs-4"></i>
+      </a>
+      <a
+        href="#"
+        class="btn btn-dark btn-slide d-flex align-items-center justify-content-center"
+        data-color="#25D366"
+        aria-label="WhatsApp"
+      >
+        <i class="bi bi-whatsapp fs-4"></i>
+      </a>
+      <a
+        href="#"
+        class="btn btn-dark btn-slide d-flex align-items-center justify-content-center"
+        data-color="#FCD116"
+        aria-label="Site"
+      >
+        <i class="bi bi-globe fs-4"></i>
+      </a>
+      <a
+        href="#"
+        class="btn btn-dark btn-slide d-flex align-items-center justify-content-center"
+        data-color="#F7941D"
+        aria-label="GitHub"
+      >
+        <i class="bi bi-github fs-4"></i>
+      </a>
+      <a
+        href="#"
+        class="btn btn-dark btn-slide d-flex align-items-center justify-content-center"
+        data-color="#FF0000"
+        aria-label="YouTube"
+      >
+        <i class="bi bi-youtube fs-4"></i>
+      </a>
     </div>
 
-    <div class="buttons">
-      <a href="#" class="btn btn-insta"><i class="fab fa-instagram"></i> Instagram</a>
-      <a href="#" class="btn btn-facebook"><i class="fab fa-facebook"></i> Facebook</a>
-      <a href="#" class="btn btn-twitter"><i class="fab fa-twitter"></i> Twitter</a>
-      <a href="#" class="btn btn-youtube"><i class="fab fa-youtube"></i> YouTube</a>
-    </div>
+    <!-- RODAPÉ RAINBOW -->
+    <footer class="footer-stripes d-flex" role="contentinfo">
+      <div class="stripe blue flex-fill"></div>
+      <div class="stripe green flex-fill"></div>
+      <div class="stripe yellow flex-fill"></div>
+      <div class="stripe orange flex-fill"></div>
+      <div class="stripe red flex-fill"></div>
+    </footer>
 
-    <div class="footer-bar color-variations">
-      <!-- Ex: barra colorida ou P&B de acordo com o tema -->
-      <div class="bar red"></div>
-      <div class="bar yellow"></div>
-      <div class="bar green"></div>
-      <div class="bar blue"></div>
-    </div>
   </div>
 
-<script src="script.js"></script>
+  <!-- Bootstrap 5 JS Bundle (opcional) -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    defer
+  ></script>
 </body>
 </html>
