@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LinkBio - Redes Sociais</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Ícones do Font Awesome (CDN) -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <div class="linkbio-container">
+    <div class="profile">
+      <img src="https://via.placeholder.com/150" alt="Foto de perfil" class="profile-img">
+      <h2 class="username">@SeuNome</h2>
+    </div>
+
+    <div class="buttons">
+      <a href="#" class="btn btn-insta"><i class="fab fa-instagram"></i> Instagram</a>
+      <a href="#" class="btn btn-facebook"><i class="fab fa-facebook"></i> Facebook</a>
+      <a href="#" class="btn btn-twitter"><i class="fab fa-twitter"></i> Twitter</a>
+      <a href="#" class="btn btn-youtube"><i class="fab fa-youtube"></i> YouTube</a>
+    </div>
+
+    <div class="footer-bar color-variations">
+      <!-- Ex: barra colorida ou P&B de acordo com o tema -->
+      <div class="bar red"></div>
+      <div class="bar yellow"></div>
+      <div class="bar green"></div>
+      <div class="bar blue"></div>
+    </div>
+  </div>
+
+</body>
+</html>
